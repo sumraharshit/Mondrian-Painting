@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head lang=""en>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.">
+    <title>Mondrian Painting</title>
+    <style>
+        body{
+            background-color: black; 
+        }
+         .container{
+
+            height: 100vh;
+            display: grid;
+            gap: 10px;
+           grid-template-columns: 4fr 1fr 1fr 3fr 2fr 2fr;
+           grid-template-rows: 1fr 1fr 4fr 2fr 1fr 1fr;
+         }
+        .blue{
+            background-color: midnightblue;
+        }
+        .red{
+            background-color: crimson;
+        }
+        .white{
+            background-color:white ;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .blue1{
+            grid-column:span 2;
+            grid-row: span 2;
+        }
+
+        .red1{
+            grid-column: span 3;
+        }
+        .white1{
+            grid-row: span 4;
+            grid-column: span 1;
+        }
+
+        .white2{
+            grid-row: span 3;
+            grid-column:span 1;
+        }
+        .white3{
+              grid-row: span 1;
+              grid-column: span 1;
+        }
+
+        .yellow1{
+            grid-column: span 2;
+            grid-row:span 2;
+        }
+        .white4{
+            grid-column:span 1;
+            grid-row:span 2;
+        }
+
+        .blue2{
+            grid-column:span 2;
+            grid-row:span 2;
+        }
+
+        .red2{
+            grid-column:span 2;
+            grid-row:span 1;
+        }
+        .yellow2{
+            grid-column: span 3;
+            grid-row: span 1;
+        }
+        .white5{
+            grid-row:span 2;
+        }
+        .blue3{
+            grid-row:span 2;
+            grid-column: span 2;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="blue blue1"></div>
+    <div class="red red1"></div>
+    <div class="white white1"></div>
+    <div class="yellow yellow1"></div>
+    <div class="white white4"></div>
+    <div class="white white2"></div>
+    <div class="white white3"></div>
+    
+    
+    <div class="blue blue2"></div>
+    <div class="red red2"></div>
+   
+    <div class="white white5"></div>
+    <div class="blue blue3"></div>
+    <div class="yellow yellow2"></div>
+</div>
+    
+</body>
